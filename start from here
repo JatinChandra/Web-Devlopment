@@ -1,0 +1,14 @@
+create database table using sql :
+create table usersinfo(
+ sno int(100) NOT NULL auto_increment unique,
+ id varchar(8) NOT NULL unique,
+ username varchar(255) NOT NULL unique,
+ sex varchar(1) NOT NULL,
+ mobil_no bigint(10) NOT NULL unique,
+ dob date NOT NULL,
+ password varchar(100) NOT NULL,
+ user_bio varchar(100),
+ initate__date date NOT NULL,
+ current__date date NOT NULL,
+ PRIMARY KEY(sno,id,username)
+);
