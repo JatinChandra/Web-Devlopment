@@ -1,4 +1,6 @@
-create database table using sql :
+create a table using mysql commands:
+basic command for the table used in this project.
+
 create table usersinfo(
  sno int(100) NOT NULL auto_increment unique,
  id varchar(8) NOT NULL unique,
